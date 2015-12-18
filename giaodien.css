@@ -1,0 +1,24 @@
+/* Phia tren */
+#trangchu {width: 800px; height:3000px; background-color:#006; margin:auto;}
+#trendau {width: 800px; height:100px; background-color:#93C;}
+#logo {width: 800px; height:70px; background-color: #639; float:left;}
+#menu {width: 800px; height:30px; background-color: #F00; float:left; color:#FF0; }
+#dangnhap {width: 250px; height: inherit; float:right;}
+
+/* Ben trai */
+#bentrai {width: 200px; height: 2800px; background-color:#F0F; float:left;}
+#tienich {width:200px; height:300px; background-color:#0FF;}
+#baivietmoi {width:200px; height:2500px; background-color: #CFC;}
+
+/* Ben phai */
+#benphai {width:600px; height:2800px; background-color:#390; float:left;}
+#thongbaomoinhat {width:600px; height:20px; background-color: #0F0; float:left;}
+#trangcon {width:600px; height:2780px; background-color: #FFF; float:left;}
+#baiviet {width: 600px; }
+h4 {color:#00F;}
+#hinhbaiviet {width: 600px;}
+
+/* Phia duoi */
+#phiaduoi {width:800px; height:100px; background-color:#00F; clear:both;}
+#lienhe {width: 600px; height: inherit; background-color:#FFC; float:left;}
+#luottruycap {width: 200px; height: inherit; background-color:#F39; float:left; }
