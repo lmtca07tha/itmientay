@@ -10,5 +10,7 @@ $row_chitietbaiviet = mysql_fetch_array($chitietbaiviet);
 ?>
 
 <!--Tieu de bai viet-->
-<h2><?php echo $row_chitietbaiviet['TieuDeBaiViet']?></h1>
-<div><?php echo $row_chitietbaiviet['NoiDung']?></div>
+<article>
+	<h1><?php echo $row_chitietbaiviet['TieuDeBaiViet']?></h1>
+	<p><?php echo $row_chitietbaiviet['NoiDung']?></p>
+</article>
