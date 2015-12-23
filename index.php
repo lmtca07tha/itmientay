@@ -19,7 +19,7 @@ if(isset($_GET["p"])){
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>itmientay</title>
-</head>
+</head> 
 
 <body><!-- xác định cơ thể của tài liệu-->
 <div id="trangchu">
