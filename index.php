@@ -22,7 +22,7 @@ if(isset($_GET["p"])){
 </head> 
 
 <body><!-- xác định cơ thể của tài liệu-->
-<div id="trangchu">
+<div id="trangchu"><!--định nghĩa một phần tài liệu-->
 
 	<!-- ///////// tren dau trang web -->
 	<div id="trendau">
@@ -32,6 +32,7 @@ if(isset($_GET["p"])){
 				<source src="jingle bells.mp3" type="audio/mpeg">
 			</audio>
 			<br>
+			<!--<embed src="helloworld.swf">định nghĩa một plugin khác ngoài htmtl như flash-->
     	</div>
     	<div id="menu">
         	<?php require "./menu.php"; ?>
@@ -79,7 +80,7 @@ if(isset($_GET["p"])){
 				<col style="background-color:yellow">
 			</colgroup>
 			<tr>
-				<th>a</th>
+				<th>a <dialog>day la dinh nghia box</dialog></th><!--dialog la một hộp thoại dùng định nghĩa 1 bảng-->
 				<th>b</th>
 				<th>c</th>
 			</tr>
@@ -95,7 +96,7 @@ if(isset($_GET["p"])){
 			</tr>
 			</table>
 			<em>văn bản nhấn mạnh</em><br>
-			<strong>văn bản mạnh mẻ</strong><br>
+			<strong>văn <del>bản</del> <ins>chuong</ins> mạnh mẻ</strong><br>
 			<code>một đoạn mã máy tính</code><br>
 			<samp>mẫu đầu ra của một chương trình máy tính</samp><br>
 			<kbd>bàn phím nhập vào</kbd><br>
@@ -109,13 +110,29 @@ if(isset($_GET["p"])){
 				<option>chon 5</option>
 				<option>chon 6</option>
 			</datalist>
-			<!--Danh sach chu thich-->
+			<!--Danh sach chu thich/mo ta-->
 			<dl>
 				<dt>chu thich 1</dt>
 				<dd>dien giai chu thich 1</dd>
 				<dt>chu thich 2</dt>
 				<dd>dien giai chu thich 2</dd>
 			</dl>
+			<details open><!--rõ thêm chi tiết mà người dùng có thể xem hoặc ẩn theo yêu cầu-->
+				<summary>
+					leminhtri
+				</summary>
+				<p>Bai viet so huu boi leminhtri</p>
+				<p>chiu trach nhiem noi dung</p>
+			</details>
+			<!--dfn dung dinh nghia mot danh tu nao do-->
+			<p><dfn><abbr title="Ngon ngu danh dau sieu van van">HTML</abbr></dfn> la mot tieu chuan danh dau ngon ngu cho mot trang web</p>
+			<form>
+				<fieldset disabled><!--định nghĩa một nhóm các đặc tính có liên quan-->
+					<legend>Giới thiệu</legend>
+					Lê Minh Trí <input type="text"><br>
+					0907618916<input type="text"><br>
+				</fieldset>
+			</form>
     	</div>
     </div>
     
